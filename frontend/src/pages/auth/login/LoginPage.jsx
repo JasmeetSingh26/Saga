@@ -89,7 +89,7 @@ const LoginPage = () => {
 						<input
 							type="text"
 							className="input-field"
-							placeholder="Username"
+							placeholder="Username             eg{Tim}"
 							name="username"
 							onChange={handleInputChange}
 							value={formData.username}
@@ -101,7 +101,7 @@ const LoginPage = () => {
 						<input
 							type="password"
 							className="input-field"
-							placeholder="Password"
+							placeholder="Password              eg{123}"
 							name="password"
 							onChange={handleInputChange}
 							value={formData.password}
